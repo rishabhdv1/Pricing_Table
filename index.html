@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pricing Table</title>
         <link rel="stylesheet" href="./style.css">
-        
     </head>
     <body>
         <table class="mytable" border="0" cellspacing="0" cellpadding="1">
@@ -40,27 +39,25 @@
                         </div>
                     </th>
                 </tr>
-                <tr>
-                    <th class="common2 tal">
-                        <div class="xyz">
-                            <h3>Choose a Plan</h3>
-                        </div>
-                    </td>
+                <tr class="r_h2">
+                    <th class="common2 tal" style="padding-left: 0;">
+                        <div class="xyz" style="line-height:96px"><span style="font-size: 20px;">Choose a Plan</span></div>
+                    </th>
                     <th class="common2 gray">
-                        <h2>$9 <span class="fs">/mo.</span></h2>
-                    </td>
+                        <p>$9 <span class="fs">/mo.</span></p>
+                    </th>
                     <th class="common2 gray">
-                        <h2>$19 <span class="fs">/mo.</span></h2>
-                    </td>
+                        <p>$19 <span class="fs">/mo.</span></p>
+                    </th>
                     <th class="common2 gray">
-                        <h2>$29 <span class="fs">/mo.</span></h2>
-                    </td>
+                        <p>$29 <span class="fs">/mo.</span></p>
+                    </th>
                     <th class="common2 gray">
-                        <h2>$39 <span class="fs">/mo.</span></h2>
-                    </td>
+                        <p>$39 <span class="fs">/mo.</span></p>
+                    </th>
                     <th class="common2 gray">
-                        <h2>$49 <span class="fs">/mo.</span></h2>
-                    </td>
+                        <p>$49 <span class="fs">/mo.</span></p>
+                    </th>
                 </tr>
             </thead>
             <tbody>
@@ -329,23 +326,40 @@
                 <tr class="gray">
                     <td class="common2 h60"></td>
                     <td class="common2 h60">
-                        <button class="fc skyblue" type="button">Sign Up</button>
+                        <button onclick="myFunction1()" class="fc skyblue" type="button">Sign Up</button>
                     </td>
                     <td class="common2 h60">
-                        <button class="fc green" type="button">Sign Up</button>
+                        <button onclick="myFunction2()" class="fc green" type="button">Sign Up</button>
                     </td>
                     <td class="common2 h60">
-                        <button class="fc yellow" type="button">Sign Up</button>
+                        <button onclick="myFunction3()" class="fc yellow" type="button">Sign Up</button>
                     </td>
                     <td class="common2 h60">
-                        <button class="fc orange" type="button">Sign Up</button>
+                        <button onclick="myFunction4()" class="fc orange" type="button">Sign Up</button>
                     </td>
                     <td class="common2 h60">
-                        <button class="fc red" type="button">Sign Up</button>
+                        <button onclick="myFunction5()" class="fc red" type="button">Sign Up</button>
                     </td>
                 </tr>
             </tfoot>
         </table>
+        <script>
+            function myFunction1() {
+                alert("Starter");
+            }
+            function myFunction2() {
+                alert("Basic");
+            }
+            function myFunction3() {
+                alert("Professional");
+            }
+            function myFunction4() {
+                alert("Business");
+            }
+            function myFunction5() {
+                alert("premier");
+            }
+        </script>
         
     </body>
 </html>

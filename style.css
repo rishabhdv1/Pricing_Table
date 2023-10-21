@@ -1,3 +1,6 @@
+body{
+    user-select: none;
+}
 .mytable{
     width: 959px;
     margin: 5px auto;
@@ -58,14 +61,16 @@
 .mytable tr th:first-child{
     padding-left: 10px;
 }
+.mytable thead tr:nth-child(2) p{
+    font-size: 2em;
+}
 .xyz{
-    width: 106%;
+    width: 99.4%;
     height: 100%;
-    margin-left: -10px;
-    margin-top: 21px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background: #ececec;
+    padding: 1px;
 }
 
 .gray{
